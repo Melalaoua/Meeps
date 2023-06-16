@@ -1,0 +1,122 @@
+{
+    "categories":[
+        {
+            "Common":{
+                "title" : "Commun",
+                "commands" : {
+                    "iBook" :{
+                        "command_name" : "Book",
+                        "command_desc" : "Recense les commandes de Meeps",
+                        "command_usage" : "ibook",
+                        "emoji" : "📚",
+                        "autorisations" : "Tout le monde",
+                        "associated_channel" : "Tout les channels"
+                    },
+                    "iUpdate" :{
+                        "command_name" : "Update",
+                        "command_desc" : "Donne des informations sur la dernière update de Meeps",
+                        "command_usage": "iupdate",
+                        "emoji" : "📣",
+                        "autorisations" : "Tout le monde",
+                        "associated_channel" : "Tout les channels"
+                    },
+                    "iPatch" :{
+                        "command_name" : "Patch",
+                        "command_desc" : "Donne des informations sur le dernier patch de Meeps, concerne les modifications mineures, hotmix, ajouts",
+                        "command_usage": "ipatch",
+                        "emoji" : "🧩",
+                        "autorisations" : "Tout le monde",
+                        "associated_channel" : "Tout les channels"
+                    },
+                    "itldr" :{
+                        "command_name" : "Tl;dr",
+                        "command_desc" : "La discussion est trop longue ? Meeps te fait un résumé des derniers messages",
+                        "command_usage": "itldr",
+                        "emoji" : "🙌",
+                        "autorisations" : "Tout le monde",
+                        "associated_channel" : "Tout les channels"
+                    }
+                }
+            },
+            "aggro":{
+                "title" : "Attaque",
+                "commands" : {
+                    "ifart":{
+                        "command_name" : "ifart / ifartc (classement)",
+                        "command_desc" : "Envoie Meeps peter sur sa cible. La cible doit être dans un channel vocal.",
+                        "command_usage": "ifart @cible",
+                        "emoji" : "💩",
+                        "autorisations" : "Tout le monde",
+                        "associated_channel" : "#fartlands"
+                    },
+                    "iputedemere":{
+                        "command_name" : "ipute / ipdmc (classement)",
+                        "command_desc" : "Meeps détermine si la mère d'un joueur est une pute... ou non",
+                        "command_usage": "ipute ou ipdm ou iputedemere @cible",
+                        "emoji" : "👩‍🦰",
+                        "autorisations" : "Tout le monde",
+                        "associated_channel" : "Tout les channels"
+                    },
+                    "iroast":{
+                        "command_name" : "Roast",
+                        "command_desc" : "Roast ta cible.",
+                        "command_usage": "iroast @cible",
+                        "emoji" : "🔥",
+                        "autorisations" : "Tout le monde",
+                        "associated_channel" : "Tout les channels"
+                    },
+                    "ilove":{
+                        "command_name" : "Love",
+                        "command_desc" : "Plein d'amour sur ta cible.",
+                        "command_usage": "ilove @cible",
+                        "emoji" : "❤️",
+                        "autorisations" : "Tout le monde",
+                        "associated_channel" : "Tout les channels"
+                    }
+                }
+            },
+            "User":{
+                "title" : "Utilisateur",
+                "commands" : {
+                    "Id":{
+                        "command_name" : "Utilisateur",
+                        "command_desc" : "Informations sur l'utilisateur, statistiques dans le serveur",
+                        "command_usage": "id avec ou sans @cible",
+                        "emoji" : "🪪",
+                        "autorisations" : "Tout le monde",
+                        "associated_channel" : "Tout les channels"
+                    },
+                    "Iavatar":{
+                        "command_name"  : "Avatar",
+                        "command_desc" : "Affiche la photo de profil",
+                        "command_usage" : "iavatar avec ou sans @cible",
+                        "emoji" : "🖼️",
+                        "autorisations" : "Tout le monde",
+                        "associated_channel" : "Tout les channels"
+                    },
+                    "Title":{
+                        "command_name"  : "Titres",
+                        "command_desc" : "Sélectionnez un titre à arborer parmi les titres que vous possédez. Si une cible est précisée, affiche les titres de la personne",
+                        "command_usage" : "ititres avec ou sans @cible",
+                        "emoji" : "📜",
+                        "autorisations" : "Tout le monde",
+                        "associated_channel" : "Tout les channels"
+                    }
+                }
+            },
+            "Milestone":{
+                "title" : "Milestone",
+                "commands" : {
+                    "Id":{
+                        "command_name" : "Milestone",
+                        "command_desc" : "Liste toutes les milestones.",
+                        "command_usage": "imilestone",
+                        "emoji" : "⚜️",
+                        "autorisations" : "Tout le monde",
+                        "associated_channel" : "Tout les channels"
+                    }
+                }
+            }   
+        }
+    ]
+}
